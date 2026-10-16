@@ -9,9 +9,11 @@ public class PayrollCalculator {
         //− their name
         //− their hours worked (a floating point number)
         //− their pay rate (a floating point number)
-        String employeeName;
-        float hoursWorked;
-        float payRate;
+
+        System.out.println("Enter your name: ");
+        String employeeName = scanner.nextLine();
+
+
 
 
 
