@@ -22,7 +22,7 @@ public class PayrollCalculator {
         float grossPay = hoursWorked * payRate;
 
         //Display the employee's name and their gross pay
-        System.out.printf("Hi%s " + employeeName + " your gross pay is " + grossPay);
+        System.out.printf("%s" + " your gross pay is $%.2f", employeeName, grossPay);
 
 
     }
