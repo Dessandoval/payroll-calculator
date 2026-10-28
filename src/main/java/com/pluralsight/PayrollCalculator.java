@@ -12,14 +12,14 @@ public class PayrollCalculator {
 
         //− their hours worked (a floating point number)
         System.out.print("Enter your hours worked: ");
-        float hoursWorked = scanner.nextFloat();
+        double hoursWorked = scanner.nextFloat();
 
         //− their pay rate (a floating point number)
         System.out.print("Enter your pay rate: ");
-        float payRate = scanner.nextFloat();
+        double payRate = scanner.nextFloat();
 
         //Calculate their gross pay.
-        float grossPay = hoursWorked * payRate;
+        double grossPay = hoursWorked * payRate;
 
         //Display the employee's name and their gross pay
         System.out.printf("Hi %s" + " your gross pay is $%.2f", employeeName, grossPay);
